@@ -62,7 +62,7 @@ def ResponseModel(data, message):
         "message":message
     }
 
-def ErrorResponseModel(error, code, messae):
+def ErrorResponseModel(error, code, message):
     return {"error": error, "code": code, "message": message}
 
 def product_helper(product) -> dict:
