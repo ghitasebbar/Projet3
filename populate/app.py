@@ -3,7 +3,6 @@ from pymongo import MongoClient
 
 MONGO_INFO = "mongodb://root:root@mongodb:27017"
 
-#client = motor.motor_asyncio.AsyncIOMotorClient(MONGO_INFO)
 client = MongoClient(MONGO_INFO)
 
 database = client.projet3
